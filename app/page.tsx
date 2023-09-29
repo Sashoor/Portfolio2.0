@@ -1,5 +1,7 @@
+import About from '@/Components/About'
 import Header from '@/Components/Header'
 import Hero from '@/Components/Hero'
+import Workexperince from '@/Components/Workexperince'
 import Image from 'next/image'
 
 export default function Home() {
@@ -8,11 +10,16 @@ export default function Home() {
 
 <Header />
 {/* Hero */}
-<section id='hero' className='snap-center'>
+<section id='hero' className='snap-start'>
 <Hero />
 </section>
 {/* About */}
-{/* Experince */}
+<section id='about' className='snap-center'>
+<About />
+</section>
+<section id='Workexperince' className='snap-center'>
+<Workexperince />
+</section>
 {/* Skills */}
 {/* Projects */}
 {/* Contact Me */}
