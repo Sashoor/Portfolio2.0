@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.18.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
